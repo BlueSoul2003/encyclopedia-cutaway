@@ -1,0 +1,487 @@
+{
+  "version": "0.1.0",
+  "review_scope": "Model visual review of generic conceptual illustrations; no native-speaker or engineering certification.",
+  "examples": [
+    {
+      "id": "01-space-telescope",
+      "language": "English",
+      "domain": "Astronomy",
+      "background": "ink-indigo",
+      "title": "A space telescope",
+      "subtitle": "Light collected, focused and recorded.",
+      "labels": [
+        [
+          "Primary mirror",
+          "Collects incoming starlight."
+        ],
+        [
+          "Secondary mirror",
+          "Reflects light back toward the center."
+        ],
+        [
+          "Central opening",
+          "Lets the focused beam pass behind the primary."
+        ],
+        [
+          "Detector",
+          "Records the focused light."
+        ],
+        [
+          "Solar array",
+          "Supplies electrical power."
+        ],
+        [
+          "Instrument bay",
+          "Houses the observing instruments."
+        ]
+      ],
+      "sources": [
+        "https://science.nasa.gov/mission/hubble/observatory/design/optics/"
+      ],
+      "image": "01-space-telescope.png",
+      "status": "reviewed",
+      "prompt": "Use case: scientific-educational. Create one landscape 1536×1024 classic illustrated encyclopedia plate. Input image is a STYLE REFERENCE ONLY, not an edit target: retain fine slightly irregular ink, matte gouache/watercolor modeling, visible delicate brushwork, paper grain, calm marginal captions, coherent three-quarter cutaway. New subject and new composition. One dominant subject, recognizable external silhouette with a carefully chosen open section; keep extremities inside generous margins. Background color extends through the page, quiet caption zones, no white caption cards. Modest title, six callouts with short headings and one sentence, fine precise leaders ending at the named part. Exact supplied text only, preserve every accent/script; no filler, logos, big flow ribbons, photorealistic gloss. Incidental living scene must not cover text or functional paths. Treat as generic conceptual illustration, not verified product teardown.\nSubject/composition: Silver orbital Cassegrain reflecting telescope, opened cylindrical tube. Optical topology: parallel rays enter front, strike concave primary at rear, reflect to small secondary toward front, return through central hole in primary to detector behind primary. Distinguish rays from wiring. Long solar wings stay in frame. Small separate marginal vignette of an astronomer reading at desk, with its own scale; no astronaut inside telescope.\nLanguage: English. Exact title: \"A space telescope\". Exact subtitle: \"Light collected, focused and recorded.\". Caption headings and sentences verbatim:\n\"Primary mirror\" — \"Collects incoming starlight.\"\n\"Secondary mirror\" — \"Reflects light back toward the center.\"\n\"Central opening\" — \"Lets the focused beam pass behind the primary.\"\n\"Detector\" — \"Records the focused light.\"\n\"Solar array\" — \"Supplies electrical power.\"\n\"Instrument bay\" — \"Houses the observing instruments.\"",
+      "review": "Model visual review: both solar wings now fit within the frame; all six English callouts remain legible with ivory lettering on full-page indigo paper. Removed an incorrect optical-ray overlay rather than retaining false ray geometry. Mirror surfaces, instrument placement and perspective are schematic; this plate does not depict calibrated ray tracing.",
+      "edits": [
+        "Edit this generated encyclopedia telescope plate. Keep its detailed hand-painted silver telescope, six exact English captions and their wording, open tube, primary/secondary mirrors, detector, instrument bay and quiet astronomer desk vignette. Correct three visible issues: 1) remove EVERY yellow/golden optical ray and arrow overlay; show the optical hardware clearly without ray tracing, do not add replacement rays. 2) Reduce/reposition the complete telescope and both solar wings so both wings and all extremities have at least 35 pixels clearance inside the image edges, especially the clipped upper solar wing. 3) Replace the off-white page with a FULL-PAGE deep ink-indigo watercolor paper ground, including all caption margins and vignette ground. Preserve delicate brushwork, matte rendering and legible warm ivory text and thin ivory leaders against this dark background. Stars sparse, no glowing interface. Keep all six callout endpoints on their same actual components. Landscape 1536×1024, no added text."
+      ],
+      "sha256": "3c7299313275d8cc507fe645d34a5cd21958cb8ce5ee7cfe2a07baffbdb8e4a0",
+      "dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "02-hydropower",
+      "language": "Bahasa Melayu",
+      "domain": "Energy",
+      "background": "misty slate-teal",
+      "title": "Stesen hidroelektrik",
+      "subtitle": "Aliran air menjadi tenaga elektrik.",
+      "labels": [
+        [
+          "Takungan",
+          "Menyimpan air di belakang empangan."
+        ],
+        [
+          "Salur tekanan",
+          "Membawa air ke turbin."
+        ],
+        [
+          "Turbin",
+          "Berputar apabila air mengalir."
+        ],
+        [
+          "Penjana",
+          "Menukar putaran kepada tenaga elektrik."
+        ],
+        [
+          "Transformer",
+          "Melaras voltan elektrik."
+        ],
+        [
+          "Salur keluar",
+          "Mengembalikan air ke sungai."
+        ]
+      ],
+      "sources": [
+        "https://www.energy.gov/cmei/water/how-hydropower-works"
+      ],
+      "image": "02-hydropower.png",
+      "status": "reviewed",
+      "prompt": "Use case: scientific-educational. Create one landscape 1536×1024 classic illustrated encyclopedia plate. Input image is a STYLE REFERENCE ONLY, not an edit target: retain fine slightly irregular ink, matte gouache/watercolor modeling, visible delicate brushwork, paper grain, calm marginal captions, coherent three-quarter cutaway. New subject and new composition. One dominant subject, recognizable external silhouette with a carefully chosen open section; keep extremities inside generous margins. Background color extends through the page, quiet caption zones, no white caption cards. Modest title, six callouts with short headings and one sentence, fine precise leaders ending at the named part. Exact supplied text only, preserve every accent/script; no filler, logos, big flow ribbons, photorealistic gloss. Incidental living scene must not cover text or functional paths. Treat as generic conceptual illustration, not verified product teardown.\nSubject/composition: Dam and powerhouse landscape section, slate-teal background with pale cream lettering. Reservoir at upper left, sloping enclosed penstock down to turbine low in powerhouse, clear shaft to generator above, water continues through tailrace to river; electrical cables from generator to transformer separate from water. Tiny fisherman and heron on downstream bank outside machinery. Water path unobstructed.\nLanguage: Bahasa Melayu. Exact title: \"Stesen hidroelektrik\". Exact subtitle: \"Aliran air menjadi tenaga elektrik.\". Caption headings and sentences verbatim:\n\"Takungan\" — \"Menyimpan air di belakang empangan.\"\n\"Salur tekanan\" — \"Membawa air ke turbin.\"\n\"Turbin\" — \"Berputar apabila air mengalir.\"\n\"Penjana\" — \"Menukar putaran kepada tenaga elektrik.\"\n\"Transformer\" — \"Melaras voltan elektrik.\"\n\"Salur keluar\" — \"Mengembalikan air ke sungai.\"",
+      "review": "Model visual review: all six Malay caption blocks match the prompt; cream lettering contrasts with the teal background; reservoir, descending penstock, turbine, generator shaft and downstream outlet are visible. Generic turbine casing and transformer wiring are simplified; not a construction or safety drawing.",
+      "edits": [],
+      "sha256": "0a1bef02335de4e2fb80e543065cdb38d51482069358c2ba4859f6dcb6c956d0",
+      "dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "03-beehive",
+      "language": "Español",
+      "domain": "Ecology",
+      "background": "honey-peach",
+      "title": "Dentro de una colmena",
+      "subtitle": "Una colonia organizada entre panales.",
+      "labels": [
+        [
+          "Techo",
+          "Protege el interior de la lluvia."
+        ],
+        [
+          "Cuadros",
+          "Sostienen los panales de cera."
+        ],
+        [
+          "Reserva de miel",
+          "Almacena alimento para la colonia."
+        ],
+        [
+          "Zona de cría",
+          "Contiene huevos, larvas y pupas."
+        ],
+        [
+          "Piquera",
+          "Permite la entrada y salida de las abejas."
+        ],
+        [
+          "Abejas obreras",
+          "Atienden la cría y recolectan alimento."
+        ]
+      ],
+      "sources": [
+        "https://extension.psu.edu/beekeeping-honey-bees"
+      ],
+      "image": "03-beehive.png",
+      "status": "reviewed",
+      "prompt": "Use case: scientific-educational. Create one landscape 1536×1024 classic illustrated encyclopedia plate. Input image is a STYLE REFERENCE ONLY, not an edit target: retain fine slightly irregular ink, matte gouache/watercolor modeling, visible delicate brushwork, paper grain, calm marginal captions, coherent three-quarter cutaway. New subject and new composition. One dominant subject, recognizable external silhouette with a carefully chosen open section; keep extremities inside generous margins. Background color extends through the page, quiet caption zones, no white caption cards. Modest title, six callouts with short headings and one sentence, fine precise leaders ending at the named part. Exact supplied text only, preserve every accent/script; no filler, logos, big flow ribbons, photorealistic gloss. Incidental living scene must not cover text or functional paths. Treat as generic conceptual illustration, not verified product teardown.\nSubject/composition: Wooden Langstroth beehive opened three-quarter view, pale honey-peach paper and dark brown ink. Frames visible inside upper honey box and lower brood box; lower entrance at bottom board. Fine honeycomb cells not giant honey pools. Beekeeper sitting quietly nearby at plausible scale, scattered bees and a wildflower. Clearly distinct honey storage vs brood, no invented hive plumbing.\nLanguage: Español. Exact title: \"Dentro de una colmena\". Exact subtitle: \"Una colonia organizada entre panales.\". Caption headings and sentences verbatim:\n\"Techo\" — \"Protege el interior de la lluvia.\"\n\"Cuadros\" — \"Sostienen los panales de cera.\"\n\"Reserva de miel\" — \"Almacena alimento para la colonia.\"\n\"Zona de cría\" — \"Contiene huevos, larvas y pupas.\"\n\"Piquera\" — \"Permite la entrada y salida de las abejas.\"\n\"Abejas obreras\" — \"Atienden la cría y recolectan alimento.\"",
+      "review": "Model visual review: all six Spanish callouts and accents are legible; frame stacks, honey region, lower brood region and bottom entrance are distinct. Bees are enlarged for illustration readability; some brood contents are indicated by texture rather than individual developmental stages.",
+      "edits": [],
+      "sha256": "bd15be703cde94f948b6809bf0ab47065e3e2a5c9ae90f0bf955f604f98ef2c0",
+      "dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "04-pipe-organ",
+      "language": "Français",
+      "domain": "Music",
+      "background": "muted burgundy",
+      "title": "À l'intérieur d'un orgue",
+      "subtitle": "De l'air aux notes de musique.",
+      "labels": [
+        [
+          "Soufflerie",
+          "Fournit l'air nécessaire."
+        ],
+        [
+          "Réservoir",
+          "Stabilise la pression de l'air."
+        ],
+        [
+          "Sommier",
+          "Distribue l'air vers les tuyaux."
+        ],
+        [
+          "Soupapes",
+          "S'ouvrent lorsque les touches sont jouées."
+        ],
+        [
+          "Tuyaux",
+          "Produisent les sons grâce à l'air."
+        ],
+        [
+          "Clavier",
+          "Commande l'ouverture des soupapes."
+        ]
+      ],
+      "sources": [
+        "https://www.yamaha.com/en/musical_instrument_guide/pipeorgan/mechanism/mechanism002.html"
+      ],
+      "image": "04-pipe-organ.png",
+      "status": "reviewed",
+      "prompt": "Use case: scientific-educational. Create one landscape 1536×1024 classic illustrated encyclopedia plate. Input image is a STYLE REFERENCE ONLY, not an edit target: retain fine slightly irregular ink, matte gouache/watercolor modeling, visible delicate brushwork, paper grain, calm marginal captions, coherent three-quarter cutaway. New subject and new composition. One dominant subject, recognizable external silhouette with a carefully chosen open section; keep extremities inside generous margins. Background color extends through the page, quiet caption zones, no white caption cards. Modest title, six callouts with short headings and one sentence, fine precise leaders ending at the named part. Exact supplied text only, preserve every accent/script; no filler, logos, big flow ribbons, photorealistic gloss. Incidental living scene must not cover text or functional paths. Treat as generic conceptual illustration, not verified product teardown.\nSubject/composition: Pipe organ timber cabinet cutaway and rows of different-length flue pipes, burgundy paper with warm ivory text. Blower feeds reservoir, wind trunk feeds horizontal windchest beneath pipes. Key press through thin mechanical tracker rods opens a valve admitting air to selected pipe; rods NOT air tubes. One pipe small section can show flue/labium simply. Organist at console, quiet small cat beside bench outside mechanism.\nLanguage: Français. Exact title: \"À l'intérieur d'un orgue\". Exact subtitle: \"De l'air aux notes de musique.\". Caption headings and sentences verbatim:\n\"Soufflerie\" — \"Fournit l'air nécessaire.\"\n\"Réservoir\" — \"Stabilise la pression de l'air.\"\n\"Sommier\" — \"Distribue l'air vers les tuyaux.\"\n\"Soupapes\" — \"S'ouvrent lorsque les touches sont jouées.\"\n\"Tuyaux\" — \"Produisent les sons grâce à l'air.\"\n\"Clavier\" — \"Commande l'ouverture des soupapes.\"",
+      "review": "Model visual review: the full tallest pipe/case tips are now visible; all six French captions and accents are legible against burgundy. Blower/reservoir/wind trunk and rows of tracker rods are visually distinct. Detailed valve linkages and ranks are simplified; not a buildable organ plan.",
+      "edits": [
+        "Edit only composition/framing of this hand-painted pipe organ encyclopedia plate. The upper ends of the tallest pipes and the top of the wooden case are cropped. Shrink and reposition the entire organ as a coherent object so ALL tallest pipes and decorative case tips are completely visible, with at least 35 pixels of burgundy background above them. Keep all six exact French caption blocks, their wording and accents, ivory lettering and leaders, correct endpoints, organist and cat, wood detail, wind trunk, reservoir, pipe ranks and tracker mechanism. Keep the full-page burgundy paper background, watercolor and gouache craft, landscape 1536×1024. Do not invent extra text. No clipping at any edge."
+      ],
+      "sha256": "7a8b4ce9f76ea309df3ead55e7d3fe99d727662c1c1305b2efac83a7f6d56f6f",
+      "dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "05-mirrorless-camera",
+      "language": "Deutsch",
+      "domain": "Photography",
+      "background": "graphite-blue",
+      "title": "Eine spiegellose Kamera",
+      "subtitle": "Vom Licht zum digitalen Bild.",
+      "labels": [
+        [
+          "Objektiv",
+          "Bündelt das einfallende Licht."
+        ],
+        [
+          "Blende",
+          "Regelt die Öffnung für das Licht."
+        ],
+        [
+          "Bildsensor",
+          "Wandelt Licht in elektrische Signale um."
+        ],
+        [
+          "Prozessor",
+          "Verarbeitet die Bilddaten."
+        ],
+        [
+          "Speicherkarte",
+          "Speichert die Aufnahmen."
+        ],
+        [
+          "Akku",
+          "Versorgt die Kamera mit Strom."
+        ]
+      ],
+      "sources": [
+        "https://global.canon/en/quality/story/2024-high-image-quality.html"
+      ],
+      "image": "05-mirrorless-camera.png",
+      "status": "reviewed",
+      "prompt": "Use case: scientific-educational. Create one landscape 1536×1024 classic illustrated encyclopedia plate. Input image is a STYLE REFERENCE ONLY, not an edit target: retain fine slightly irregular ink, matte gouache/watercolor modeling, visible delicate brushwork, paper grain, calm marginal captions, coherent three-quarter cutaway. New subject and new composition. One dominant subject, recognizable external silhouette with a carefully chosen open section; keep extremities inside generous margins. Background color extends through the page, quiet caption zones, no white caption cards. Modest title, six callouts with short headings and one sentence, fine precise leaders ending at the named part. Exact supplied text only, preserve every accent/script; no filler, logos, big flow ribbons, photorealistic gloss. Incidental living scene must not cover text or functional paths. Treat as generic conceptual illustration, not verified product teardown.\nSubject/composition: Generic mirrorless camera opened metal body, graphite-blue background and cream captions. Lens elements and iris aligned to rectangular sensor directly behind lens. No reflex mirror or pentaprism. Processor circuit board, side memory slot, bottom battery compartment; light path separate from electrical traces. Separate marginal vignette photographer resting on park bench and small sparrow at its own scale.\nLanguage: Deutsch. Exact title: \"Eine spiegellose Kamera\". Exact subtitle: \"Vom Licht zum digitalen Bild.\". Caption headings and sentences verbatim:\n\"Objektiv\" — \"Bündelt das einfallende Licht.\"\n\"Blende\" — \"Regelt die Öffnung für das Licht.\"\n\"Bildsensor\" — \"Wandelt Licht in elektrische Signale um.\"\n\"Prozessor\" — \"Verarbeitet die Bilddaten.\"\n\"Speicherkarte\" — \"Speichert die Aufnahmen.\"\n\"Akku\" — \"Versorgt die Kamera mit Strom.\"",
+      "edits": [],
+      "review": "Model visual review: six German caption blocks, including umlauts, are legible and correspond to lens, iris, sensor, processor, memory card and bottom battery. The exposed optical axis reaches the sensor without a reflex mirror. The circuit-board layout and memory-card proportions are conceptual, not a specific camera teardown.",
+      "sha256": "04437c56a9dd5018e9c8af36b131cca8ade05c6b56fe73dc93090bf14631556f",
+      "dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "06-bread-oven",
+      "language": "Italiano",
+      "domain": "Cooking",
+      "background": "brick terracotta",
+      "title": "Un forno a legna",
+      "subtitle": "Il calore custodito nella muratura.",
+      "labels": [
+        [
+          "Cupola",
+          "Irradia calore verso il cibo."
+        ],
+        [
+          "Isolamento",
+          "Riduce la dispersione del calore."
+        ],
+        [
+          "Piano di cottura",
+          "Trasmette calore alla base del pane."
+        ],
+        [
+          "Focolare",
+          "Ospita il fuoco e le braci."
+        ],
+        [
+          "Bocca",
+          "Permette l'accesso alla camera."
+        ],
+        [
+          "Camino",
+          "Convoglia i fumi verso l'esterno."
+        ]
+      ],
+      "sources": [
+        "https://www.fornobravo.com/tech-resources/oven-operation/"
+      ],
+      "image": "06-bread-oven.png",
+      "status": "reviewed",
+      "prompt": "Use case: scientific-educational. Create one landscape 1536×1024 classic illustrated encyclopedia plate. Input image is a STYLE REFERENCE ONLY, not an edit target: retain fine slightly irregular ink, matte gouache/watercolor modeling, visible delicate brushwork, paper grain, calm marginal captions, coherent three-quarter cutaway. New subject and new composition. One dominant subject, recognizable external silhouette with a carefully chosen open section; keep extremities inside generous margins. Background color extends through the page, quiet caption zones, no white caption cards. Modest title, six callouts with short headings and one sentence, fine precise leaders ending at the named part. Exact supplied text only, preserve every accent/script; no filler, logos, big flow ribbons, photorealistic gloss. Incidental living scene must not cover text or functional paths. Treat as generic conceptual illustration, not verified product teardown.\nSubject/composition: Masonry wood-fired bread oven cut through half dome, brick terracotta paper warm cream text. Refractory inner dome, distinct insulation outer layer, refractory hearth and insulated slab. Fire on one side and loaves opposite, chimney at front entrance vent outside baking dome, NOT hole at crown of dome. Fine subtle arrows show heat radiation/convection, floor conduction simple, no rocket flame. Baker carrying bread and sleepy cat outside oven footprint.\nLanguage: Italiano. Exact title: \"Un forno a legna\". Exact subtitle: \"Il calore custodito nella muratura.\". Caption headings and sentences verbatim:\n\"Cupola\" — \"Irradia calore verso il cibo.\"\n\"Isolamento\" — \"Riduce la dispersione del calore.\"\n\"Piano di cottura\" — \"Trasmette calore alla base del pane.\"\n\"Focolare\" — \"Ospita il fuoco e le braci.\"\n\"Bocca\" — \"Permette l'accesso alla camera.\"\n\"Camino\" — \"Convoglia i fumi verso l'esterno.\"",
+      "review": "Model visual review: all six Italian captions remain legible after the terracotta-background edit; dome, insulation, hearth and front chimney are distinguishable. Fire and bread occupy opposite sides. Heat arrows are qualitative illustrations, not a numerical heat-transfer model.",
+      "edits": [
+        "Edit only the page background and associated caption contrast of this hand-painted Italian oven plate. Replace the off-white background THROUGHOUT the entire page, including all caption margins, with a softly textured medium brick-terracotta watercolor paper tone. Use warm ivory caption text and thin ivory leaders with excellent contrast. Preserve all six Italian captions verbatim and their precise endpoints, the layered cutaway dome and insulation, front-entry chimney, fire on the left, bread on right, orange heat arrows, baker, sleeping cat and plants. Preserve geometry, composition and watercolor/gouache style. Do not add borders, white caption cards or new text. Landscape 1536×1024."
+      ],
+      "sha256": "3b7ee12d5283ea18bbe0b636e50050a454eb3263c636eb1105c8923f1490ee60",
+      "dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "07-robot-arm",
+      "language": "日本語",
+      "domain": "Robotics",
+      "background": "smoky cyan",
+      "title": "ロボットアームのしくみ",
+      "subtitle": "関節の動きで道具を運ぶ。",
+      "labels": [
+        [
+          "ベース",
+          "アーム全体を支える。"
+        ],
+        [
+          "関節",
+          "アームの向きを変える。"
+        ],
+        [
+          "モーター",
+          "関節を動かす力を生む。"
+        ],
+        [
+          "減速機",
+          "回転を遅くして力を伝える。"
+        ],
+        [
+          "グリッパー",
+          "物をつかむ先端の道具。"
+        ],
+        [
+          "制御装置",
+          "各モーターの動きを調整する。"
+        ]
+      ],
+      "sources": [
+        "https://new.abb.com/products/robotics/controllers"
+      ],
+      "image": "07-robot-arm.png",
+      "status": "reviewed",
+      "prompt": "Use case: scientific-educational. Create one landscape 1536×1024 classic illustrated encyclopedia plate. Input image is a STYLE REFERENCE ONLY, not an edit target: retain fine slightly irregular ink, matte gouache/watercolor modeling, visible delicate brushwork, paper grain, calm marginal captions, coherent three-quarter cutaway. New subject and new composition. One dominant subject, recognizable external silhouette with a carefully chosen open section; keep extremities inside generous margins. Background color extends through the page, quiet caption zones, no white caption cards. Modest title, six callouts with short headings and one sentence, fine precise leaders ending at the named part. Exact supplied text only, preserve every accent/script; no filler, logos, big flow ribbons, photorealistic gloss. Incidental living scene must not cover text or functional paths. Treat as generic conceptual illustration, not verified product teardown.\nSubject/composition: Generic amber six-joint industrial arm on dark base, smoky cyan-blue paper and dark ink. Coherent base shoulder elbow wrist and two-finger gripper holding small block at rest. Partial upper-arm and joint cutaway reveals motor mechanically coupled to reduction gear; control cabinet cable attaches base and distributed internal wiring. No invented precise industrial specs. Engineer seated taking notes in independent margin vignette, outside arm workspace.\nLanguage: 日本語. Exact title: \"ロボットアームのしくみ\". Exact subtitle: \"関節の動きで道具を運ぶ。\". Caption headings and sentences verbatim:\n\"ベース\" — \"アーム全体を支える。\"\n\"関節\" — \"アームの向きを変える。\"\n\"モーター\" — \"関節を動かす力を生む。\"\n\"減速機\" — \"回転を遅くして力を伝える。\"\n\"グリッパー\" — \"物をつかむ先端の道具。\"\n\"制御装置\" — \"各モーターの動きを調整する。\"\nBACKGROUND IS REQUIRED: a fully colored smoky cyan watercolor paper ground, all the way to every edge and behind ALL captions, NOT white or off-white. FULL subject within frame with 35 pixel margin above and below all parts.",
+      "review": "Model visual review: all six Japanese callouts are legible; upper-arm motor/reduction assembly, base, wrist/gripper and controller are visible. Controller cabling enters the base. Gear teeth and hidden joint internals are conceptual; not a verified six-axis kinematic or reduction-gear drawing.",
+      "edits": [],
+      "sha256": "8d0bffd20faf02e426ad39cbe1cf664d0cc81205bc6c325f5f6f40d99b6d2eec",
+      "dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "08-seismograph",
+      "language": "한국어",
+      "domain": "Geophysics",
+      "background": "plum-gray",
+      "title": "지진계의 원리",
+      "subtitle": "땅의 움직임을 선으로 기록하다.",
+      "labels": [
+        [
+          "받침대",
+          "지면과 함께 움직인다."
+        ],
+        [
+          "스프링",
+          "관성 질량을 매단다."
+        ],
+        [
+          "관성 질량",
+          "지면의 움직임보다 늦게 반응한다."
+        ],
+        [
+          "기록 펜",
+          "상대적인 움직임을 선으로 남긴다."
+        ],
+        [
+          "회전 드럼",
+          "기록지를 일정하게 돌린다."
+        ],
+        [
+          "기록지",
+          "진동의 흔적을 담는다."
+        ]
+      ],
+      "sources": [
+        "https://www.usgs.gov/programs/earthquake-hazards/seismographs-keeping-track-earthquakes"
+      ],
+      "image": "08-seismograph.png",
+      "status": "reviewed",
+      "prompt": "Use case: scientific-educational. Create one landscape 1536×1024 classic illustrated encyclopedia plate. Input image is a STYLE REFERENCE ONLY, not an edit target: retain fine slightly irregular ink, matte gouache/watercolor modeling, visible delicate brushwork, paper grain, calm marginal captions, coherent three-quarter cutaway. New subject and new composition. One dominant subject, recognizable external silhouette with a carefully chosen open section; keep extremities inside generous margins. Background color extends through the page, quiet caption zones, no white caption cards. Modest title, six callouts with short headings and one sentence, fine precise leaders ending at the named part. Exact supplied text only, preserve every accent/script; no filler, logos, big flow ribbons, photorealistic gloss. Incidental living scene must not cover text or functional paths. Treat as generic conceptual illustration, not verified product teardown.\nSubject/composition: Historical mechanical vertical seismograph conceptual cutaway, plum-gray muted paper with pale cream lettering. Rigid support frame mounted ground-moving base, spring suspended heavy mass, slender stylus linked to mass touches paper wrapped on rotating drum fixed to same base. Relative motion records waveform. A simple single-axis arrangement, no fabricated calibrated values, no earthquake prediction. Small independent vignette scientist making notes plus resting dog.\nLanguage: 한국어. Exact title: \"지진계의 원리\". Exact subtitle: \"땅의 움직임을 선으로 기록하다.\". Caption headings and sentences verbatim:\n\"받침대\" — \"지면과 함께 움직인다.\"\n\"스프링\" — \"관성 질량을 매단다.\"\n\"관성 질량\" — \"지면의 움직임보다 늦게 반응한다.\"\n\"기록 펜\" — \"상대적인 움직임을 선으로 남긴다.\"\n\"회전 드럼\" — \"기록지를 일정하게 돌린다.\"\n\"기록지\" — \"진동의 흔적을 담는다.\"\nBACKGROUND IS REQUIRED: a fully colored plum-gray watercolor paper ground, all the way to every edge and behind ALL captions, NOT white or off-white. FULL subject within frame with 35 pixel margin above and below all parts.",
+      "review": "Model visual review: six Korean callouts are legible with added 01–06 numbering. Spring-suspended mass and pen touching the drum are visibly connected; the drum and support share a base. Bottom guides/linkages are simplified. Trace is unscaled, illustrative, and does not imply earthquake prediction.",
+      "edits": [],
+      "sha256": "98fc4707f4150d0b64c4a98665afc3b0a67a43d272264224c52a4e24436fc043",
+      "dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "09-container-crane",
+      "language": "Bahasa Indonesia",
+      "domain": "Logistics",
+      "background": "stormy petrol",
+      "title": "Derek peti kemas",
+      "subtitle": "Dari kapal menuju dermaga.",
+      "labels": [
+        [
+          "Rel",
+          "Menjadi jalur gerak derek."
+        ],
+        [
+          "Troli",
+          "Bergerak sepanjang lengan derek."
+        ],
+        [
+          "Mesin pengangkat",
+          "Menggulung kabel untuk mengangkat beban."
+        ],
+        [
+          "Kabel baja",
+          "Menopang beban saat diangkat."
+        ],
+        [
+          "Spreader",
+          "Mengunci sudut atas peti kemas."
+        ],
+        [
+          "Peti kemas",
+          "Membawa barang dalam satu unit."
+        ]
+      ],
+      "sources": [
+        "https://www.liebherr.com/en-us/maritime-cranes/products/port-equipment/ship-to-shore-container-cranes-4433170"
+      ],
+      "image": "09-container-crane.png",
+      "status": "reviewed",
+      "prompt": "Use case: scientific-educational. Create one landscape 1536×1024 classic illustrated encyclopedia plate. Input image is a STYLE REFERENCE ONLY, not an edit target: retain fine slightly irregular ink, matte gouache/watercolor modeling, visible delicate brushwork, paper grain, calm marginal captions, coherent three-quarter cutaway. New subject and new composition. One dominant subject, recognizable external silhouette with a carefully chosen open section; keep extremities inside generous margins. Background color extends through the page, quiet caption zones, no white caption cards. Modest title, six callouts with short headings and one sentence, fine precise leaders ending at the named part. Exact supplied text only, preserve every accent/script; no filler, logos, big flow ribbons, photorealistic gloss. Incidental living scene must not cover text or functional paths. Treat as generic conceptual illustration, not verified product teardown.\nSubject/composition: Ship-to-shore container crane coherent ochre frame, stormy petrol paper cream captions and harbor-orange details. Full tall crane and long boom fully in frame, ship section at right quay at left. Trolley on boom supported by rails, vertical hoist cables from trolley to spreader locking four top corners of one level container. Reveal small winch compartment without losing silhouette. Never floating unsupported load. Small worker on quay far outside suspended load path, seagull on empty bollard.\nLanguage: Bahasa Indonesia. Exact title: \"Derek peti kemas\". Exact subtitle: \"Dari kapal menuju dermaga.\". Caption headings and sentences verbatim:\n\"Rel\" — \"Menjadi jalur gerak derek.\"\n\"Troli\" — \"Bergerak sepanjang lengan derek.\"\n\"Mesin pengangkat\" — \"Menggulung kabel untuk mengangkat beban.\"\n\"Kabel baja\" — \"Menopang beban saat diangkat.\"\n\"Spreader\" — \"Mengunci sudut atas peti kemas.\"\n\"Peti kemas\" — \"Membawa barang dalam satu unit.\"\nBACKGROUND IS REQUIRED: a fully colored stormy petrol watercolor paper ground, all the way to every edge and behind ALL captions, NOT white or off-white. FULL subject within frame with 35 pixel margin above and below all parts.",
+      "edits": [
+        "Make a targeted correction to this generated Indonesian container-crane encyclopedia plate. Preserve its composition, full yellow crane, stormy blue watercolor background, human and seagull, hoist machinery, supported trolley/cables/spreader/container, ship and six caption blocks. Correct ONLY: (1) the \"Rel\" leader currently points at a diagonal structural stay; remove that endpoint/line and reroute it to the HORIZONTAL trolley running rail on top of the boom beside the trolley wheels. Do not point at a diagonal support or guardrail. (2) Replace the complete bottom-right container caption verbatim with \"Peti kemas\" and \"Membawa barang dalam satu unit.\" Set it in clear warm-ivory lettering on a quiet blue area, avoiding overlap with the ship superstructure. \"unit\" must be spelled u-n-i-t, no corrupted substitute. Keep \"Rel\" caption sentence \"Menjadi jalur gerak derek.\" and every other caption exactly unchanged. Fine leaders and ink, matte hand-painted craft, landscape 1536×1024. No new text.",
+        "Change ONLY the endpoint of the \"Rel\" callout leader in this Indonesian crane illustration. It currently ends on the upper safety guardrail above the boom, which is incorrect. Delete that old endpoint dot, and extend/reroute this one leader to the DARK TROLLEY RUNNING TRACK immediately beneath the trolley wheels, along the top load-bearing surface of the horizontal yellow boom. At 1536×1024, use the visible track just LEFT of the trolley's lower wheels, approximately x=963, y=277, not the higher guardrail at y=235. End in a small pale dot directly on that lower track. Do not add a second leader or leave the old dot. Keep every caption word EXACTLY unchanged, especially \"Membawa barang dalam satu unit.\" Preserve all geometry, other leaders, people, seagull, ship, crane, muted blue background, brushwork and layout."
+      ],
+      "review": "Model visual review: six Indonesian caption blocks are legible; corrected the final word to 'unit'. Hoist cables visibly support a spreader and one container. After two leader edits the Rel endpoint remains near the boom's upper rail/guardrail region rather than an unambiguously isolated trolley running track. Retained as a style example with that explicit callout limitation; crane mechanisms and dimensions are conceptual.",
+      "sha256": "8c3ef8c59080310f1112f3eb1472a063dad5b224647b818c02be0459160fe134",
+      "dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "10-gas-chromatography",
+      "language": "Português",
+      "domain": "Analytical chemistry",
+      "background": "dusty rose",
+      "title": "Cromatografia gasosa",
+      "subtitle": "Separar componentes para analisar.",
+      "labels": [
+        [
+          "Gás de arraste",
+          "Transporta a amostra pela coluna."
+        ],
+        [
+          "Injetor",
+          "Introduz a amostra no fluxo de gás."
+        ],
+        [
+          "Coluna",
+          "Separa os componentes da amostra."
+        ],
+        [
+          "Forno",
+          "Controla a temperatura da coluna."
+        ],
+        [
+          "Detector",
+          "Registra a passagem dos componentes."
+        ],
+        [
+          "Cromatograma",
+          "Mostra a resposta ao longo do tempo."
+        ]
+      ],
+      "sources": [
+        "https://www.shimadzu.com/an/products/gas-chromatography/index.html"
+      ],
+      "image": "10-gas-chromatography.png",
+      "status": "reviewed",
+      "prompt": "Use case: scientific-educational. Create one landscape 1536×1024 classic illustrated encyclopedia plate. Input image is a STYLE REFERENCE ONLY, not an edit target: retain fine slightly irregular ink, matte gouache/watercolor modeling, visible delicate brushwork, paper grain, calm marginal captions, coherent three-quarter cutaway. New subject and new composition. One dominant subject, recognizable external silhouette with a carefully chosen open section; keep extremities inside generous margins. Background color extends through the page, quiet caption zones, no white caption cards. Modest title, six callouts with short headings and one sentence, fine precise leaders ending at the named part. Exact supplied text only, preserve every accent/script; no filler, logos, big flow ribbons, photorealistic gloss. Incidental living scene must not cover text or functional paths. Treat as generic conceptual illustration, not verified product teardown.\nSubject/composition: Generic bench gas chromatograph opened cabinet, dusty rose paper and deep plum ink. Carrier gas cylinder and regulator outside left, continuous thin gas tube to top heated injector then coiled capillary column inside oven, exits oven to detector at right. Detector electronic wire goes to monitor showing schematic unscaled peaks, no empirical data/numbers. Gas vs electronic connection differentiated. Scientist reading in separate margin vignette, small plant outside tubing.\nLanguage: Português. Exact title: \"Cromatografia gasosa\". Exact subtitle: \"Separar componentes para analisar.\". Caption headings and sentences verbatim:\n\"Gás de arraste\" — \"Transporta a amostra pela coluna.\"\n\"Injetor\" — \"Introduz a amostra no fluxo de gás.\"\n\"Coluna\" — \"Separa os componentes da amostra.\"\n\"Forno\" — \"Controla a temperatura da coluna.\"\n\"Detector\" — \"Registra a passagem dos componentes.\"\n\"Cromatograma\" — \"Mostra a resposta ao longo do tempo.\"\nBACKGROUND IS REQUIRED: fully colored medium dusty-rose watercolor paper ground extending to every edge and behind ALL captions. Deep plum ink high contrast. NOT white or off-white. Complete subject within frame.",
+      "edits": [
+        "Targeted plumbing correction to this generated Portuguese gas-chromatography plate. Preserve full dusty-rose background, exact six Portuguese caption blocks including accents, scientist reading, potted plant, white cabinet, top injector, coiled column inside oven, detector at right and monitor with unscaled schematic peaks. Correct carrier-gas topology: from the cylinder regulator show ONLY ONE thin continuous carrier-gas tube leaving its RIGHT outlet, running to the SIDE OF THE TOP INJECTOR, visibly connected there. Remove the separate long downward tube leaving the BOTTOM of the regulator and entering the lower left cabinet: delete that entire unsupported auxiliary branch. Keep the injector-to-coiled-column-to-detector tubing intact. Keep detector electronics separate from carrier gas. Reroute \"Gás de arraste\" leader endpoint from the pressure-gauge dial to the gas cylinder body or the sole regulator outlet. No extra gas branches. All Portuguese captions verbatim unchanged, fine ink, matte watercolor/gouache, landscape 1536×1024. Do not claim exact apparatus design."
+      ],
+      "review": "Model visual review: six Portuguese caption blocks and accents are legible. A targeted edit removed an unsupported gas branch and made a single cylinder-regulator-to-injector line visible; the injector-to-column-to-detector route remains apparent. Detector construction and electronics are generic; the unscaled display trace is illustrative, not measured data.",
+      "sha256": "ffbaae062648553cd913b8cee949cc0f27d407a54f38f7018225718cafab1e6e",
+      "dimensions": [
+        1536,
+        1024
+      ]
+    }
+  ]
+}

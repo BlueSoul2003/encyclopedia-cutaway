@@ -1,0 +1,4 @@
+interface:
+  display_name: "Encyclopedia Cutaway"
+  short_description: "Hand-painted cutaway explainers across topics and languages"
+  default_prompt: "Use $encyclopedia-cutaway to explain a wind-powered grain mill in Spanish, with a topic-specific background and quiet living accents."
